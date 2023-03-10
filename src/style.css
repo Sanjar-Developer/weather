@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background: url(./img/cloud.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box {
+    display: flex;
+    justify-content: space-around
+}
+
+span {
+    color: coral;
+    font-weight: 600;
+}
+
+.dagre {
+    font-size: 65px;
+}
+
+.card_w {
+    margin-top: 200px;
+    padding-top: 50px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 40px;
+    text-align: center;
+    color: black;
+    height: 450px;
+    width: 400px;
+}
+
+.libox {
+    margin-right: 35px;
+    font-size: 30px;
+    margin-top: 25px;
+    color: black;
+
+}
+
+.line {
+    width: 1px;
+    height: 50px;
+    border: 1px solid coral;
+    margin-right: 30px;
+    margin-top: 25px;
+
+}
+
+input {
+    padding: 10px 10px 10px 10px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.6);
+    color: coral;
+
+}
+
+input::placeholder {
+    color: coral;
+}
+
+
+.batn {
+    margin-left: 10px;
+    padding: 10px 12px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.6);
+    color: coral;
+
+}
+.batn:hover{
+    background: rgb(218, 182, 169);
+    transition: 0.3ms;
+
+}
+.FRF {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+
+@media(max-width:576){
+    .FRF{
+        text-align: center;
+        padding-bottom: 10px;
+        
+    }
+   
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+            list-style: none;
+        }
+        
+        body {
+            background: url(./img/cloud.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        
+        .box {
+            display: flex;
+            justify-content: space-around
+        }
+        
+        span {
+            color: coral;
+            font-weight: 600;
+        }
+        
+        .dagre {
+            font-size: 65px;
+        }
+        
+        .card_w {
+            margin-top: 50px;
+            padding-top: 50px;
+            background: rgba(255, 255, 255, 0.3);
+            border-radius: 40px;
+            text-align: center;
+            color: black;
+            height: 450px;
+            width: 400px;
+        }
+        
+        .libox {
+            margin-right: 35px;
+            font-size: 30px;
+            margin-top: 25px;
+            color: black;
+        
+        }
+        
+        .line {
+            width: 1px;
+            height: 50px;
+            border: 1px solid coral;
+            margin-right: 30px;
+            margin-top: 25px;
+        
+        }
+        
+        input {
+            padding: 10px 10px 10px 10px;
+            border: none;
+            outline: none;
+            border-radius: 20px;
+            background: rgba(255, 255, 255, 0.6);
+            color: coral;
+        
+        }
+        
+        input::placeholder {
+            color: coral;
+        }
+        
+        
+        .batn {
+            margin-left: 10px;
+            padding: 10px 12px;
+            border: none;
+            outline: none;
+            border-radius: 20px;
+            background: rgba(255, 255, 255, 0.6);
+            color: coral;
+        
+        }
+        .batn:hover{
+            background: rgb(218, 182, 169);
+            transition: 0.3ms;
+        
+        }
+        .FRF {
+            text-align: center;
+            padding-bottom: 10px;
+        }
+        
+
+}
