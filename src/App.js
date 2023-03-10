@@ -31,7 +31,7 @@ function App() {
                 </div>
                 <h1>{data?.name}</h1>
           <h3>{data?.weather[0]?.main}</h3>
-                <img className='bulut' src={icon} />
+                <img className='bulut' src={icon} alt="png" />
                 <h2 className='dagre'>{Math.round(data?.main?.temp)}</h2>
                 <ul className="box">
                   <li className="libox">Max: <span>{Math.round(data?.main?.temp_max)}</span></li>
