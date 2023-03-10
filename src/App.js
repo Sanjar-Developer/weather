@@ -7,7 +7,7 @@ import "./style.css"
 const icon = require("../src/img/icon.png")
 
 function App() {
-  const [key, setKey]= useState()
+  // const [key, setKey]= useState()
   const [data, setData] = useState()
   const [value, setValue] = useState()
   
